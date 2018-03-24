@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#c8e6c9">
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:text="Newsland"
+
+
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/version"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name"
+        android:layout_centerInParent="true"
+        android:text="Version 1.0"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/powered_by"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/version"
+        android:layout_centerInParent="true"
+        android:paddingTop="32dp"
+        android:text="Powered by newsapi.org"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/icon_made_by"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/powered_by"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="30dp"
+        android:linksClickable="true"
+        android:paddingTop="4dp"
+        android:text="This Newsland App collates Breaking News  from around the  globe and organizes them in a readable manner. It saves you the time of hunting for latest news from different sources. "
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
